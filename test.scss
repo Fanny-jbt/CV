@@ -186,23 +186,22 @@ body {
   }
 }
 
-
 .bubble4 {
-  @include bubble($colorWord3,280pX, 320px);
+  @include bubble($colorWord3,240pX, 360px);
   @include border-radius(30px , 0 , 30px, 0);
-  top: 250px;
+  top: 280px;
   left: 300px;
   span.the-arrow4 {
-    @include arrow(260px, -19px, $colorWord3);
+    @include arrow(220px, -19px, $colorWord3);
   }
 }
 .bubble5 {
-  @include bubble($colorWord4, 230px);
+  @include bubble($colorWord4,200px, 330px);
   @include border-radius( 0,30px, 0,30px);
   top: 400px;
-  left: -280px;
+  left: -335px;
   span.the-arrow5 {
-    @include arrow(210px, 250px,$colorWord4);
+    @include arrow(200px, 330px,$colorWord4);
     transform: rotate(90deg);
   }
 }
@@ -226,6 +225,9 @@ body {
     @include arrow(0, 250px, $colorWord5);
     transform: rotate(180deg);
   }
+}
+img.iconCompetence{
+    width: 20%;   
 }
 .bubble8 {
   @include bubble($colorWord6,180px);
