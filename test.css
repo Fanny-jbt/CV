@@ -25,7 +25,7 @@ body {
 
 .wrapper {
   width: 270px;
-  margin: 100px auto;
+  margin: 150px auto;
   position: Relative;
 }
 
@@ -353,19 +353,19 @@ img.iconCompetence {
 }
 
 .bubble8 {
-  height: 180px;
-  width: 250px;
+  height: 140px;
+  width: 200px;
   padding: 20px;
   position: absolute;
   color: white;
   background-color: #d99ab5;
   font-family: "Open Sans Condensed";
-  border-top-left-radius: 30px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 0;
-  top: 1080px;
-  left: 230px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 30px;
+  top: 1200px;
+  left: 730px;
 }
 
 .bubble8 span.the-arrow8 {
@@ -377,8 +377,8 @@ img.iconCompetence {
   border-bottom: 20px solid #d99ab5;
   position: absolute;
   top: 0;
-  left: 250px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  left: -19px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
 /*# sourceMappingURL=test.css.map */
